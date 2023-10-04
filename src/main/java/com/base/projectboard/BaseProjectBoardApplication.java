@@ -1,13 +1,13 @@
-package com.slowcampus.projectboard;
+package com.base.projectboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SlowCampusProjectBoardApplication {
+public class BaseProjectBoardApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SlowCampusProjectBoardApplication.class, args);
+        SpringApplication.run(BaseProjectBoardApplication.class, args);
     }
 
 }
