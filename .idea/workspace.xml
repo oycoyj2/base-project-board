@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09012c02-0f15-4f7d-a844-3b915d9692a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/DataRestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/DataRestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,55 +91,7 @@
       <recent name="C:\Users\oycoy\OneDrive\문서\base\base-project-board\document" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BaseProjectBoardApplication">
-    <configuration name="BaseProjectBoardApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.base.projectboard.BaseProjectBoardApplicationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="JpaRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.base.projectboard.repository.JpaRepositoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DataRestTest">
     <configuration name="base-project-board [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,17 +136,49 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="JpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataRestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.projectboard.repository.*" />
+          <option name="PATTERN" value="com.base.projectboard.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.base.projectboard.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.repository.JpaRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.DataRestTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataRestTest.givenNothing_whenRequestingArticles_thenReturnArticlesJsonResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.DataRestTest" />
+      <option name="METHOD_NAME" value="givenNothing_whenRequestingArticles_thenReturnArticlesJsonResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataRestTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.DataRestTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataRestTest" />
+        <item itemvalue="JUnit.DataRestTest.givenNothing_whenRequestingArticles_thenReturnArticlesJsonResponse" />
+        <item itemvalue="JUnit.DataRestTest.test" />
         <item itemvalue="Gradle.base-project-board [build]" />
         <item itemvalue="Gradle.base-project-board [clean]" />
-        <item itemvalue="JUnit.JpaRepositoryTest" />
-        <item itemvalue="Gradle.JpaRepositoryTest" />
-        <item itemvalue="Gradle.BaseProjectBoardApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +214,7 @@
       <workItem from="1696416919409" duration="8223000" />
       <workItem from="1696429482636" duration="239000" />
       <workItem from="1696429724868" duration="19000" />
-      <workItem from="1696429745904" duration="3909000" />
+      <workItem from="1696429745904" duration="6842000" />
     </task>
     <servers />
   </component>
