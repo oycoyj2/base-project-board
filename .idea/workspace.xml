@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09012c02-0f15-4f7d-a844-3b915d9692a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/search-bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/type/SearchType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/MainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/AuthControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +41,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -85,7 +86,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "spring.configuration.checksum": "21a0b134ab803e0fda52b04658bb3d83",
     "vue.rearranger.settings.migration": "true"
   },
@@ -108,53 +109,10 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.base.projectboard.controller" />
+      <recent name="com.base.projectboard.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BaseProjectBoardApplication">
-    <configuration name="base-project-board [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="base-project-board [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle">
     <configuration name="ArticleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
@@ -170,17 +128,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnArticleView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.projectboard.controller.*" />
+          <option name="PATTERN" value="com.base.projectboard.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.ArticleControllerTest" />
-      <option name="METHOD_NAME" value="givenNothing_whenRequestingArticleView_thenReturnArticleView" />
+      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
+      <option name="METHOD_NAME" value="givenArticleId_whenSearchingArticle_thenReturnsArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceTest.givenSearchParameters_whenSearchingArticles_thenReturnsArticlesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
+      <option name="METHOD_NAME" value="givenSearchParameters_whenSearchingArticles_thenReturnsArticlesList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,6 +176,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.MainControllerTest" />
+      <option name="METHOD_NAME" value="givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BaseProjectBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="project-board.main" />
@@ -212,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle" />
+        <item itemvalue="JUnit.MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" />
+        <item itemvalue="JUnit.ArticleServiceTest.givenSearchParameters_whenSearchingArticles_thenReturnsArticlesList" />
         <item itemvalue="JUnit.AuthControllerTest.givenNothing_whenTryingTOLogIn_thenReturnsLogInView" />
         <item itemvalue="JUnit.ArticleControllerTest" />
-        <item itemvalue="JUnit.ArticleControllerTest.givenNothing_whenRequestingArticleView_thenReturnArticleView" />
-        <item itemvalue="Gradle.base-project-board [build]" />
-        <item itemvalue="Gradle.base-project-board [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +226,7 @@
       <workItem from="1696429745904" duration="7901000" />
       <workItem from="1696494202315" duration="394000" />
       <workItem from="1696494641537" duration="12426000" />
-      <workItem from="1696574701819" duration="5097000" />
+      <workItem from="1696574701819" duration="10878000" />
     </task>
     <servers />
   </component>
