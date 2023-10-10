@@ -2,6 +2,7 @@ package com.base.projectboard.service;
 
 import com.base.projectboard.domain.type.SearchType;
 import com.base.projectboard.dto.ArticleDto;
+import com.base.projectboard.dto.ArticleUpdateDto;
 import com.base.projectboard.repository.ArticleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -26,5 +27,14 @@ public class ArticleService {
     @Transactional(readOnly = true)
     public ArticleDto searchArticle(long l) {
         return null;
+    }
+
+    public void saveArticle(ArticleDto dto) {
+    }
+
+    public void updateArticle(long articleId, ArticleUpdateDto dto) {
+    }
+
+    public void deleteArticle(long articleId) {
     }
 }

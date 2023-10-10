@@ -5,13 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09012c02-0f15-4f7d-a844-3b915d9692a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/type/SearchType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/MainControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/AuditingFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleCommentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleUpdateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleWithCommentsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/UserAccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleCommentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleWithCommentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/UserAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/articles/article-content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/search-hashtag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleCommentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/ArticleComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/ArticleComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/search-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/search-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/MainControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/repository/JpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/repository/JpaRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +70,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="com.haulmont.jpb.NewClass" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -86,7 +119,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools",
     "spring.configuration.checksum": "21a0b134ab803e0fda52b04658bb3d83",
     "vue.rearranger.settings.migration": "true"
   },
@@ -108,11 +141,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.base.projectboard.controller" />
       <recent name="com.base.projectboard.service" />
+      <recent name="com.base.projectboard.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.base.projectboard.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle">
+  <component name="RunManager" selected="Spring Boot.BaseProjectBoardApplication">
     <configuration name="ArticleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
@@ -128,23 +164,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.projectboard.service.*" />
+          <option name="PATTERN" value="com.base.projectboard.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
-      <option name="METHOD_NAME" value="givenArticleId_whenSearchingArticle_thenReturnsArticle" />
+      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.ArticleControllerTest" />
+      <option name="METHOD_NAME" value="givenNothing_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleServiceTest.givenSearchParameters_whenSearchingArticles_thenReturnsArticlesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticleSearchView_thenReturnArticleSearchView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.ArticleControllerTest" />
+      <option name="METHOD_NAME" value="givenNothing_whenRequestingArticleSearchView_thenReturnArticleSearchView" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +206,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
       <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
-      <option name="METHOD_NAME" value="givenSearchParameters_whenSearchingArticles_thenReturnsArticlesList" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,22 +227,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.projectboard.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.MainControllerTest" />
-      <option name="METHOD_NAME" value="givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BaseProjectBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="project-board.main" />
@@ -202,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArticleServiceTest.givenArticleId_whenSearchingArticle_thenReturnsArticle" />
-        <item itemvalue="JUnit.MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" />
-        <item itemvalue="JUnit.ArticleServiceTest.givenSearchParameters_whenSearchingArticles_thenReturnsArticlesList" />
-        <item itemvalue="JUnit.AuthControllerTest.givenNothing_whenTryingTOLogIn_thenReturnsLogInView" />
+        <item itemvalue="JUnit.ArticleControllerTest.givenNothing_whenRequestingArticleSearchView_thenReturnArticleSearchView" />
+        <item itemvalue="JUnit.ArticleControllerTest.givenNothing_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" />
         <item itemvalue="JUnit.ArticleControllerTest" />
+        <item itemvalue="JUnit.ArticleServiceTest" />
+        <item itemvalue="JUnit.AuthControllerTest.givenNothing_whenTryingTOLogIn_thenReturnsLogInView" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +261,10 @@
       <workItem from="1696429745904" duration="7901000" />
       <workItem from="1696494202315" duration="394000" />
       <workItem from="1696494641537" duration="12426000" />
-      <workItem from="1696574701819" duration="10878000" />
+      <workItem from="1696574701819" duration="13514000" />
+      <workItem from="1696901191354" duration="74000" />
+      <workItem from="1696901280952" duration="2899000" />
+      <workItem from="1696904194950" duration="8014000" />
     </task>
     <servers />
   </component>
