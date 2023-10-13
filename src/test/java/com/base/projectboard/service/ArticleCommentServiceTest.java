@@ -40,7 +40,7 @@ class ArticleCommentServiceTest {
         given(articleCommentRepository.findByArticle_Id(articleId)).willReturn(List.of(expected));
 
         // When
-        List<ArticleCommentDto> actual = sut.searchArticleComments(articleId);
+        List<ArticleCommentDto> actual = sut.searchArticleComment(articleId);
 
         // Then
         assertThat(actual)

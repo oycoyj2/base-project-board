@@ -1,7 +1,7 @@
 -- 테스트 계정
 -- TODO: 테스트용이지만 비밀번호가 노출된 데이터 세팅. 개선하는 것이 좋을 지 고민해 보자.
 insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
-    ('uno', 'asdf1234', 'Uno', 'uno@mail.com', 'I am Uno.', now(), 'uno', now(), 'uno')
+    ('dalnoon', '1234', 'Dalnoon', 'dalnoon@mail.com', 'I am Dalnoon.', now(), 'dalnoon', now(), 'dalnoon')
 ;
 
 -- 123 게시글
@@ -681,4 +681,3 @@ insert into article_comment (article_id, user_account_id, content, created_at, m
                                                                                                                          (77, 1, 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', '2022-01-08 02:32:10', '2021-07-23 12:21:01', 'Harlen', 'Zacharia'),
                                                                                                                          (56, 1, 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', '2021-11-18 01:32:48', '2021-06-06 01:59:25', 'Vittorio', 'Milty'),
                                                                                                                          (19, 1, 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', '2021-05-07 23:57:29', '2021-04-03 21:55:11', 'Oliver', 'Graehme')
-;
