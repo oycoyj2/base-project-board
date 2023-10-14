@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09012c02-0f15-4f7d-a844-3b915d9692a7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/PaginationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/PaginationServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleWithCommentsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleWithCommentsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.th.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.th.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/ArticleControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/repository/JpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/repository/JpaRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleCommentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleCommentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +43,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="com.haulmont.jpb.NewClass" />
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Record" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -128,6 +121,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BaseProjectBoardApplication">
+    <configuration name="ArticleCommentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleCommentServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArticleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
@@ -143,54 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.projectboard.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArticleServiceTest.givenNoSearchParameters_whenSearchingArticles_thenReturnsArticlePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.projectboard.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
-      <option name="METHOD_NAME" value="givenNoSearchParameters_whenSearchingArticles_thenReturnsArticlePage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArticleServiceTest.givenNonexistentArticleId_whenSearchingArticle_thenThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-board.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.projectboard.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
-      <option name="METHOD_NAME" value="givenNonexistentArticleId_whenSearchingArticle_thenThrowsException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleControllerTest.givenPagingAndSortingParams_whenSearchingArticlesPage_thenReturnsArticlesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
         <pattern>
@@ -199,8 +160,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.MainControllerTest" />
-      <option name="METHOD_NAME" value="givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.ArticleControllerTest" />
+      <option name="METHOD_NAME" value="givenPagingAndSortingParams_whenSearchingArticlesPage_thenReturnsArticlesPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaginationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.PaginationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaginationServiceTest.givenCurrentPageNumberAndTotalPages_whenCalculating_thenReturnsPaginationBarNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.PaginationServiceTest" />
+      <option name="METHOD_NAME" value="givenCurrentPageNumberAndTotalPages_whenCalculating_thenReturnsPaginationBarNumbers(int,int,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArticleServiceTest" />
-        <item itemvalue="JUnit.ArticleServiceTest.givenNonexistentArticleId_whenSearchingArticle_thenThrowsException" />
-        <item itemvalue="JUnit.ArticleServiceTest.givenNoSearchParameters_whenSearchingArticles_thenReturnsArticlePage" />
         <item itemvalue="JUnit.ArticleControllerTest" />
-        <item itemvalue="JUnit.MainControllerTest.givenNothing_whenRequestingRootPage_thenRedirectsToArticlesPage" />
+        <item itemvalue="JUnit.ArticleControllerTest.givenPagingAndSortingParams_whenSearchingArticlesPage_thenReturnsArticlesPage" />
+        <item itemvalue="JUnit.PaginationServiceTest" />
+        <item itemvalue="JUnit.PaginationServiceTest.givenCurrentPageNumberAndTotalPages_whenCalculating_thenReturnsPaginationBarNumbers" />
+        <item itemvalue="JUnit.ArticleCommentServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +236,7 @@
       <workItem from="1696901191354" duration="74000" />
       <workItem from="1696901280952" duration="2899000" />
       <workItem from="1696904194950" duration="16169000" />
-      <workItem from="1696999943329" duration="7459000" />
+      <workItem from="1696999943329" duration="17029000" />
     </task>
     <servers />
   </component>
