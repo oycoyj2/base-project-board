@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09012c02-0f15-4f7d-a844-3b915d9692a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/articles/table-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/querydsl/ArticleRepositoryCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/querydsl/ArticleRepositoryCustomImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/search-hashtag.th.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/BaseProjectBoardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/BaseProjectBoardApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/type/SearchType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/type/SearchType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleCommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/search-hashtag.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/search-hashtag.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/ArticleControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +46,11 @@
       <list>
         <option value="Enum" />
         <option value="com.haulmont.jpb.NewClass" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Record" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -128,51 +124,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BaseProjectBoardApplication">
-    <configuration name="base-project-board [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="base-project-board [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ArticleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleControllerTest.givenHashtag_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
         <pattern>
@@ -182,12 +134,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
       <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.ArticleControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="givenHashtag_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleControllerTest.givenPagingAndSortingParams_whenSearchingArticlesPage_thenReturnsArticlesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleControllerTest.givenNothing_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-board.test" />
       <extension name="coverage">
         <pattern>
@@ -197,7 +150,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.base.projectboard.controller" />
       <option name="MAIN_CLASS_NAME" value="com.base.projectboard.controller.ArticleControllerTest" />
-      <option name="METHOD_NAME" value="givenPagingAndSortingParams_whenSearchingArticlesPage_thenReturnsArticlesPage" />
+      <option name="METHOD_NAME" value="givenNothing_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,6 +172,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArticleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceTest.givenNothing_whenCalling_thenReturnsHashtags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.projectboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.base.projectboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.base.projectboard.service.ArticleServiceTest" />
+      <option name="METHOD_NAME" value="givenNothing_whenCalling_thenReturnsHashtags" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BaseProjectBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="project-board.main" />
@@ -229,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleControllerTest.givenHashtag_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" />
+        <item itemvalue="JUnit.ArticleControllerTest.givenNothing_whenRequestingArticleHashtagSearchView_thenReturnArticleHashtagSearchView" />
+        <item itemvalue="JUnit.ArticleServiceTest" />
+        <item itemvalue="JUnit.ArticleServiceTest.givenNothing_whenCalling_thenReturnsHashtags" />
         <item itemvalue="JUnit.ArticleControllerTest.givenSearchKeyword_whenSearchingArticlesView_thenReturnArticlesView" />
-        <item itemvalue="Gradle.base-project-board [build]" />
-        <item itemvalue="Gradle.base-project-board [clean]" />
-        <item itemvalue="JUnit.ArticleControllerTest" />
-        <item itemvalue="JUnit.ArticleControllerTest.givenPagingAndSortingParams_whenSearchingArticlesPage_thenReturnsArticlesPage" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +241,7 @@
       <workItem from="1696901191354" duration="74000" />
       <workItem from="1696901280952" duration="2899000" />
       <workItem from="1696904194950" duration="16169000" />
-      <workItem from="1696999943329" duration="26715000" />
+      <workItem from="1696999943329" duration="32968000" />
     </task>
     <servers />
   </component>
