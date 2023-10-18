@@ -5,48 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09012c02-0f15-4f7d-a844-3b915d9692a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/config/DataRestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/ArticleCommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/constant/FormStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/request/ArticleCommentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/request/ArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/util/FormDataEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/form.th.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/header.th.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/ArticleCommentControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/util/FormDataEncoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/ArticleComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/ArticleComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/type/SearchType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/domain/constant/SearchType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleCommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleCommentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/ArticleDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/UserAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/UserAccountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleCommentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleCommentResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleWithCommentsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/dto/response/ArticleWithCommentsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/UserAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/repository/UserAccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleCommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/projectboard/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/detail.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles/index.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles/index.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/ArticleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/controller/ArticleControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleCommentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleCommentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/projectboard/service/ArticleServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +246,7 @@
       <workItem from="1696901191354" duration="74000" />
       <workItem from="1696901280952" duration="2899000" />
       <workItem from="1696904194950" duration="16169000" />
-      <workItem from="1696999943329" duration="44021000" />
+      <workItem from="1696999943329" duration="45417000" />
     </task>
     <servers />
   </component>
